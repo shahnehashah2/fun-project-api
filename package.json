@@ -1,0 +1,22 @@
+{
+  "name": "fun-project-api",
+  "version": "1.0.0",
+  "description": "Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahnehashah2/fun-project-api.git"
+  },
+  "author": "Neha Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahnehashah2/fun-project-api/issues"
+  },
+  "homepage": "https://github.com/shahnehashah2/fun-project-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  }
+}
