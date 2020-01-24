@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/shahnehashah2/fun-project-api#readme",
   "dependencies": {
-    "@hapi/hapi": "^18.4.0"
+    "@hapi/hapi": "^18.4.0",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6"
   }
 }
