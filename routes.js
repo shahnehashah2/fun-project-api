@@ -4,15 +4,19 @@ module.exports = [
     {
         method: 'GET',
         path: '/',
-        handler: (request, h) => {
-            return controller.sayHello();
-        }
-    },
-    {
+        options: {
+            handler: controller.sayHello,
+            description: 'Say Hello',
+            tags: ['api']
+            }
+        },
+        {
         method: 'GET',
         path: '/jokes',
-        handler: (request, h) => {
-            return controller.getJokes();
+        options: {
+            handler: controller.getJokes,
+            description: 'List all jokes',
+            tags: ['api']
         }
     }
 ]
